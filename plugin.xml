@@ -13,11 +13,11 @@
     <license>MIT</license>
 
 	<platform name="android">
-		<!--<source-file src="google-services.json" target-dir="./"/>-->
+		<source-file src="google-services.json" target-dir="./"/>
 		<resource-file src="fcm_push_icon.png" target="res/drawable/fcm_push_icon.png" />
 	</platform>
 
 	<platform name="ios">
-		<!--<source-file src="GoogleService-Info.plist"/>-->
+		<source-file src="GoogleService-Info.plist"/>
 	</platform>
 </plugin>
